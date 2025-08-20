@@ -6,7 +6,8 @@ This GitHub serves as a repository for STT 855 and EPI 855
 **Team**:
   - Gustavo de los Campos (D&M)
   - Ana I. Vazuqez (D&M)
-(D: Developer, M: Maintainer)
+
+[D: Developer, M: Maintainer]
 
 **Instructor 2025**:  Gustavo de los Campos (gustavoc@msu.edu).
 
