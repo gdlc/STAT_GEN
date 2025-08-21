@@ -31,7 +31,9 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | **Linkage Disequilibrium** | [pdf](https://www.dropbox.com/scl/fi/dlnrvlwqmmcsiswjmn455/6-MeansAndVariances.pdf?rlkey=o3223lhysffdvgd8rwoq9pq6b&dl=0) |  | |
 | **Multi-locus models** |  |  | |
 | **Resamblance between Relatives** |  |  | |
+| **Midterm Tuesday Oct 21st (tentative)** |  |  | |
 | **GWAS** |  |  | |
 | **Heritability estimation** |  |  | |
 | **Genetic Variance With or Without Linkage Disequilibirum?** |  |  | |
 | **Genomic Prediction** |  |  | |
+| **Final Exam  Thu 12/11/2025 12:45PM-2:45PM (tentative)** |  |  | |
