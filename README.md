@@ -1,7 +1,7 @@
 # Statistical & Quantitative Genetics (STT855/EPI855)
 
 
-This GitHub serves as a repository for STT 855 and EPI 855
+This GitHub serves as a repository for STT 855 and EPI 855.
 
 **Team**:
   - Gustavo de los Campos (D&M)
