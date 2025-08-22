@@ -29,8 +29,8 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | **Sources of Genetic Variation** | [pdf](https://www.dropbox.com/scl/fi/pctkzw48fny4psckh0pje/5-ChangesInAlleleFrequency.pdf?rlkey=bvorwd2a110o9b1qy0fykehin&dl=0) |  | |
 | **Single locus model** | [pdf]() |  | |
 | **Linkage Disequilibrium** | [pdf](https://www.dropbox.com/scl/fi/dlnrvlwqmmcsiswjmn455/6-MeansAndVariances.pdf?rlkey=o3223lhysffdvgd8rwoq9pq6b&dl=0) |  | |
-| **Multi-locus models** |  |  | |
 | **Resamblance between Relatives** |  |  | |
+| **Multi-locus models** |  |  | |
 | **Midterm Tuesday Oct 21st (tentative)** |  |  | |
 | **GWAS** |  |  | |
 | **Heritability estimation** |  |  | |
