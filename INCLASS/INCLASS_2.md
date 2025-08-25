@@ -1,7 +1,7 @@
 
 Consider a single locus with two possible alleles (A/a).
 
-A sample of 42 individuals reported 3 AA genotypes, 16 Aa genotypes, and 31 aa genotypes.
+A sample of 42 individuals reported 3 `AA` genotypes, 16 `Aa` genotypes, and 31 `aa` genotypes.
 
 Using this data report:
 
