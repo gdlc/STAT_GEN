@@ -5,7 +5,7 @@ Using Galton's data set, compute and report the OLS regression coefficient for t
 
   - ANS_1: regression of offsping height on mother's height
   - ANS_2: regression of offsping height on father's height
-  - ANS_3: regression of offsping hieght on parental average (PA=(Mother+Father)/2)
+  - ANS_3: regression of offsping hieght on parental average (PA=(Mother+Father)/2), you will first need to create this variable in DATA.
   - ANS_4: same as ANS_3, derived from a regression where you also inlcude Gender as a covariate.
 
 
