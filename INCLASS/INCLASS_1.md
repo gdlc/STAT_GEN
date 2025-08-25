@@ -23,4 +23,5 @@ To extract coefficients you can use `coef(fm)`, where `fm` is the fitted OLS reg
 
 ## Submission to Gradescope
 
-For your submission to grade scope provide an R-script named `assignment.R` (match case) answering the questions shown below. If you have multiple files to submit, at least one of them is named as `assignment.R`.  You may submit your answer to Gradescope as many times as needed.
+  For your submission to grade scope provide an R-script named `assignment.R` (match case) answering the questions shown above. 
+  You may submit your answer to Gradescope as many times as needed.
