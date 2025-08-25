@@ -29,7 +29,6 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | Allele Frequencies  |  | | [Allele Freq.](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/AlleleFreq.md) | 
 | Hardy-Weinberg Eq. | | | [HWE](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/HWE.md) | 
 |  | | | [MiceGenos](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/MiceGenos.md) | 
-
 | **Sources of Genetic Variation** | [pdf](https://www.dropbox.com/scl/fi/pctkzw48fny4psckh0pje/5-ChangesInAlleleFrequency.pdf?rlkey=bvorwd2a110o9b1qy0fykehin&dl=0) |  | |
 | **Single locus model** | [pdf]() |  | |
 | **Linkage Disequilibrium** | [pdf](https://www.dropbox.com/scl/fi/dlnrvlwqmmcsiswjmn455/6-MeansAndVariances.pdf?rlkey=o3223lhysffdvgd8rwoq9pq6b&dl=0) |  | |
