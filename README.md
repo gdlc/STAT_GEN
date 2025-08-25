@@ -26,9 +26,9 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 |**Introduction to the course** | [pdf](https://www.dropbox.com/scl/fi/4ub3wm7jp0jnoy7wgle63/0-CourseStructureAndRules.pdf?rlkey=5tgw8y0mhvc15fov7at1eupw8&dl=0) |  |  | |
 |**Introduction to Quantitative Genetics** | [pdf](https://www.dropbox.com/scl/fi/wh8wp00t1p9gcyrdt5xo5/1-AbriefHistoryOfQuantiativeGenetics.pdf?rlkey=jed38em86mb2bp7uquly7hg2b&dl=0) | [Bulmer Ch. 1](https://www.dropbox.com/scl/fi/gw3j39wuslcr9fl9a0atx/Bulmer_Intro.pdf?rlkey=few0iou7shvyb1hu91jd2wfta&dl=0) | [Galton](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/Galton.md) | |
 | **Allele and Genotype Frequency** | [pdf](https://www.dropbox.com/scl/fi/p2xedzyiqdgohhf7t3ikk/4-FrequenciesAndHardyWeinberg.pdf?rlkey=kac98rf39pn37fci445rv7j9e&dl=0) |   | | |
-| Allele Frequencies  |  | [Allele Freq.](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/AlleleFreq.md) | |
-| Hardy-Weinberg Eq. | | [HWE](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/HWE.md) | |
-
+| Allele Frequencies  |  | | [Allele Freq.](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/AlleleFreq.md) | 
+| Hardy-Weinberg Eq. | | | [HWE](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/HWE.md) | 
+|  | | | [MiceGenos](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/MiceGenos.md) | 
 
 | **Sources of Genetic Variation** | [pdf](https://www.dropbox.com/scl/fi/pctkzw48fny4psckh0pje/5-ChangesInAlleleFrequency.pdf?rlkey=bvorwd2a110o9b1qy0fykehin&dl=0) |  | |
 | **Single locus model** | [pdf]() |  | |
