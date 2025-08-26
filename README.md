@@ -13,7 +13,7 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 
 
 
-**[Syllabus](https://www.dropbox.com/scl/fi/h4e7cqg0h7mbv9yppyu94/STT855_EPI855_Syllabus_Fall_2025.doc?rlkey=ra4gh1zeie8q9o6dkc6tpvhi1&dl=0)**
+**[Syllabus](https://www.dropbox.com/scl/fi/y2utgtsowmmxbp77rxlec/STT855_EPI855_Syllabus_Fall_2025.pdf?rlkey=5k3eg5bz7szohqklgw7sk0mzu&dl=0)**
 
 **Time & Place** Tuesdays & Thursdays 12:40 PM-2:00 PM Wells Hall C506
 
