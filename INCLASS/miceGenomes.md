@@ -15,3 +15,7 @@ Create a `data.frame` named `DF` with one row per SNP (columns in GENO) and the 
   - `DF$pVal`, the p-value for the chi-sq test for HWE,
   - `DF$use`, a TRUE/FALSE vector, with TRUE if the SNP is a common variant (maf>0.03) and `HWE$pValue>0.01/ncol(GENO)`.
 
+## Submission to Gradescope
+
+  For your submission to grade scope provide an R-script named `assignment.R` (match case) answering the questions shown above. 
+  You may submit your answer to Gradescope as many times as needed.
