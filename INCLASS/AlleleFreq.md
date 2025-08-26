@@ -9,3 +9,8 @@ Using this data report:
   - **ANS_2**: The SE of the estimated freq. of the A allele.
   - **ANS_3**: A 95% CI based on a normal approximation (ANS_2 must be a 2-dimensional vector).
   - **ANS_4**: Same as ANS_3, in this case using an exact method (hint: consider using `binom.test()`)
+
+## Submission to Gradescope
+
+  For your submission to grade scope provide an R-script named `assignment.R` (match case) answering the questions shown above. 
+  You may submit your answer to Gradescope as many times as needed.
