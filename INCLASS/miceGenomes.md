@@ -15,8 +15,7 @@ Create a `data.frame` named `ANS` with one row per SNP (columns in GENO) and the
   - `maf` (minor allele frequency defined as `ANS$maf=ifelse(DF$allele_freq<0.5, DF$allele_frq,1-DF$allele_freq)`.
   - `chisq`, the chi-squared for the HWE test
   - `pVal`, the p-value for the chi-sq test for HWE,
-  - `use`, a TRUE/FALSE vector, with TRUE if the SNP is a common variant (maf>0.03) and
-
+ 
 
 ## Further information about the data set
 
@@ -53,17 +52,27 @@ To extract the SNP ID and the reference allele from the colum-name you can use `
 name = substr(x=colnames(GENO), start=1, stop=nchar(colnames(GENO))-2)
 reference = substr(x=colnames(GENO), start=nchar(colnames(GENO)), stop=nchar(colnames(GENO)))
 
-ANS=data.frame(snp=name,reference=reference)
+ANS=data.frame(snp=name,reference=reference,allele_freq=NA,maf=NA,chisq=NA,pVal=NA)
 ```
 
-Then keep adding the requested columns using
+Then fill each of the columns with NAs in a loop (over rows of ANS, i.e., columns of GENOS).
+
+
+For the HWE test you will need to count the number of 0, 1, and 2 genotypes you can use the `table()` command; however, for some SNPs you may have only 1 or 2 genotypes (e.g., all 0's or all 0's or 1's). To avoid having tables with different number of entries you can consider transforming the genotype in a factor. For instance for column `72` if you do a table  you get only 2 genotypes
 
 
 ```r
- ANS$allele_freq=....
+ i=71
+ x=GENO[,i]
+ table(x)
 ```
 
+However, if you convert it to a factor with 3 pre-specified levels you get a table with three cells
 
+```r
+ x=factor(X[,i],levels=0:2)
+ table(x)
+```
 
 To create a data frame you can use the command 'data.frame(), and the parameters will be the column names. 
 A way to do this, is initiating a column with missing values to initiate the data frame, to later fill in the columns, as follows. 
