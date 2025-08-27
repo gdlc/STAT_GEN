@@ -77,10 +77,12 @@ However, if you convert it to a factor with 3 pre-specified levels you get a tab
 ```r
  i=71
  x=factor(GENO[,i],levels=0:2)
- table(x)
+ OBS=table(x)
 ```
 
 That table will alwasy have counts of 0's, 1's and 2's in that order. You can create a similar vector for the expected number of genotypes and then calculate the HWE chi-sq. 
+
+
 
 
 ## Submission to Gradescope
