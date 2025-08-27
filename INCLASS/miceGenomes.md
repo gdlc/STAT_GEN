@@ -6,27 +6,8 @@ Using the following data set
  fname=paste0(path,'/',file)
  GENO=read.table(fname,header=TRUE)
 ```
-The data has the count of reference nucleotide for each SNP. The column are SNPs in the genotype, and the rows are mice. 
-GENO[4,2] for instance, is the genotype of fourth mouse (row '4'), SNP rs3707673 (column '2'). This subject is heterozygous for this position, with only one G, genotype: GA. We know that this particular SNP alternative nucleotide is 'A' because we searched it in the Jackson Lab SNP database for mice: 
-https://www.informatics.jax.org/
-There we did a quick search for rs3707673
-The column name of the GENO has the SNP name, and the last two characters are an underscore separator and the nucleotide allele used as reference to count.  
 
-Separate the SNP name and the reference nucleotide: 
-1-Extract the SNP name by removing the last 2 characters.
-2-Save the reference nucleotide allele (stored in the last character) 
-3-Check your work.
-
-```r
-#1
-name = substr(x=colnames(GENO), start=1, stop=nchar(colnames(GENO))-2)
-#2
-reference = substr(x=colnames(GENO), start=nchar(colnames(GENO)), stop=nchar(colnames(GENO)))
-#3
-cbind(colnames(GENO), name, reference)
-```
-
-Create a `data.frame` named `DF` with one row per SNP (columns in GENO) and the following columns
+Create a `data.frame` named `ANS` with one row per SNP (columns in GENO) and the following columns
 
   - `snp` is the SNP name
   - `reference` is the reference allele being counted.
@@ -35,6 +16,53 @@ Create a `data.frame` named `DF` with one row per SNP (columns in GENO) and the 
   - `chisq`, the chi-squared for the HWE test
   - `pVal`, the p-value for the chi-sq test for HWE,
   - `use`, a TRUE/FALSE vector, with TRUE if the SNP is a common variant (maf>0.03) and
+
+
+## Further information about the data set
+
+The data set has the count of reference nucleotide for each SNP (single nucleotide polymorphism) 
+
+Each row has the genotype of a mouse, and each column correspond to a SNP.
+
+For instance
+
+```r
+ GENO[4,2]
+```
+
+has the numeber of copies of the reference allele for the 2nd SNP found in the fourth mouse. 
+
+The allele used as reference is part of the colum-names
+
+```r
+ head(colnames(GENO))
+```
+
+The value in `GENO[4,2]` is `1` meaning that this mouse is heterozygous the 2nd SNP, with only one G allele.
+
+We can get what the other allele is by searching for this SNP the [Jackson Lab SNP database](https://www.informatics.jax.org/)  for mice. 
+
+We search for the 2nd SNP (ID rs3707673) in that data base and found that the other allele was A; therfore we know that the 4th mouse in this data set has genotype GA at the 2nd SNP. 
+
+### Hints
+
+To extract the SNP ID and the reference allele from the colum-name you can use `gsub()`
+
+```r
+
+name = substr(x=colnames(GENO), start=1, stop=nchar(colnames(GENO))-2)
+reference = substr(x=colnames(GENO), start=nchar(colnames(GENO)), stop=nchar(colnames(GENO)))
+
+ANS=data.frame(snp=name,reference=reference)
+```
+
+Then keep adding the requested columns using
+
+
+```r
+ ANS$allele_freq=....
+```
+
 
 
 To create a data frame you can use the command 'data.frame(), and the parameters will be the column names. 
