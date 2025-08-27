@@ -60,7 +60,7 @@ To create the requested `ANS` data frame you can use
  ANS=data.frame(snp=name,reference=reference,allele_freq=NA,maf=NA,chisq=NA,pVal=NA)
 ```
 
-Then you will fill each of the columns with NAs in a loop (over rows of ANS, i.e., columns of GENOS).
+Then you will need fill each of the columns with NAs in a loop (over rows of ANS, i.e., columns of GENOS).
 
 For the HWE test you will need to count the number of 0, 1, and 2 genotypes you can use the `table()` command; however, for some SNPs you may have only 1 or 2 genotypes (e.g., all 0's or all 0's and 1's). To avoid having tables with different number of entries you can consider transforming the genotype in a factor. 
 
