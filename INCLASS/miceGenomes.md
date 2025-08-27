@@ -14,7 +14,6 @@ Create a `data.frame` named `ANS` with one row per SNP (columns in GENO) and the
   - `snp` is the SNP name
   - `reference` is the reference allele being counted.
   - `allele_freq` allele frequency
-  - `maf` (minor allele frequency defined as `ANS$maf=ifelse(DF$allele_freq<0.5, DF$allele_frq,1-DF$allele_freq)`.
   - `chisq`, the chi-squared for the HWE test
   - `pVal`, the p-value for the chi-sq test for HWE,
  
@@ -57,7 +56,7 @@ To create the requested `ANS` data frame you can use
 
 
 ```r
- ANS=data.frame(snp=name,reference=reference,allele_freq=NA,maf=NA,chisq=NA,pVal=NA)
+ ANS=data.frame(snp=name,reference=reference,allele_freq=NA,chisq=NA,pVal=NA)
 ```
 
 Then you will need fill each of the columns with NAs in a loop (over rows of ANS, i.e., columns of GENOS).
