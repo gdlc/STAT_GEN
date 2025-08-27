@@ -31,8 +31,8 @@ Create a `data.frame` named `DF` with one row per SNP (columns in GENO) and the 
   - `snp` is the SNP name
   - `reference` is the reference allele being counted.
   - `allele_freq` allele frequency
-  - `maf` (minor allele frequency defined as `ANS$maf=ifelse(ANS$allele_freq<0.5, ANS$allele_frq,1-DF$allele_freq)`.
-  - `chisq`, the chi-sqare for the HWE test
+  - `maf` (minor allele frequency defined as `ANS$maf=ifelse(DF$allele_freq<0.5, DF$allele_frq,1-DF$allele_freq)`.
+  - `chisq`, the chi-squared for the HWE test
   - `pVal`, the p-value for the chi-sq test for HWE,
   - `use`, a TRUE/FALSE vector, with TRUE if the SNP is a common variant (maf>0.03) and
 
@@ -56,8 +56,11 @@ DF = data.frame(
 ```
 
 ANS_1 : should be the MAF: ANS_1 = DF$maf
+
 ANS_2 : should be the chisq statistics of the HWE test, ANS_2 = DF$chisq
+
 ANS_3 : the pValue, ANS_3 = DF$pVal
+
 ANS_4 : should be a number with the proportion of common variants that do not pass HWE.
 
 
