@@ -76,7 +76,7 @@ However, if you convert it to a factor with 3 pre-specified levels you get a tab
 
 ```r
  i=71
- x=factor(X[,i],levels=0:2)
+ x=factor(GENO[,i],levels=0:2)
  table(x)
 ```
 
