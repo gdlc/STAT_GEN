@@ -45,7 +45,7 @@ We searched for the 2nd SNP (ID rs3707673)  and found that the other allele was 
 
 ### Hints
 
-To extract the SNP ID and the reference allele from the colum-name you can use `gsub()`
+To extract the SNP ID and the reference allele from the colum-name you can use `substr()`
 
 ```r
 name = substr(x=colnames(GENO), start=1, stop=nchar(colnames(GENO))-2)
