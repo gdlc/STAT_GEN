@@ -7,6 +7,8 @@ Using the following data set
  GENO=read.table(fname,header=TRUE)
 ```
 
+## Required task
+
 Create a `data.frame` named `ANS` with one row per SNP (columns in GENO) and the following columns
 
   - `snp` is the SNP name
