@@ -1,4 +1,4 @@
-```
+```r
 nAa=160
 naa=310
 nAlleles=(nAA+nAa+naa)*2
