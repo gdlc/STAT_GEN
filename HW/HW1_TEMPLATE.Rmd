@@ -24,8 +24,7 @@ Assuming an autosomal recessive disease model and HWE, What do you estimate is t
 
 
 ```{r}
- q=sqrt(0.01)
- print(q)
+ # Insert your code here, print the required quantity
 
 ```
 
