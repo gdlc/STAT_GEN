@@ -1,7 +1,8 @@
 Download the Excel file, available at: 
+
 [Single_Locus_Exercise](https://www.dropbox.com/scl/fi/x5e3ops1bighadl0qucd0/assignment.xls?rlkey=elo8dzcroesig9ylz7q1rqf1w&st=3w3fwzol&dl=0)
 
-The file is an Excel file with two tables. You will work with this file and submit the file. Your first answer will be the first table. 
+The file has two tables. You will work with this file and submit the file. Your first answer will be the first table. 
 Your second answer will be the second table. You will submit this Excel file to Gradescope. 
 Make sure not to modify the file name or extension (do not update to xlsx), otherwise R will not find the file. 
 
