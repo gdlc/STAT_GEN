@@ -16,7 +16,7 @@ The file provides a frequency for the allele A, so pA=Prob(A), and pB = Prob(B) 
      - a
      - d
 
-4) **Save the file* as assignment.xls (do not update to xlsx, otherwise the grader will fail to read it) named `assigment.xls` **and submit it**.
+4) **Save the file** as assignment.xls (do not update to xlsx, otherwise the grader will fail to read it) named `assigment.xls` **and submit it**.
 
 The grader will check on a number of points (one per blank column of the top table) and one per empty cell in the bottom table. 
 
