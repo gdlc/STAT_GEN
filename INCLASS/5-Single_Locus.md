@@ -1,6 +1,6 @@
 1) **Download the Excel file, available at**: 
 
-[Single_Locus_Exercise](https://www.dropbox.com/scl/fi/x5e3ops1bighadl0qucd0/assignment.xls?rlkey=elo8dzcroesig9ylz7q1rqf1w&st=3w3fwzol&dl=0)
+[Single_Locus_Exercise]()
 
 
 The file provides a frequency for the allele A, so pA=Prob(A), and pB = Prob(B) = 1-pA, assuming the locus is biallelic (e.g., The only polymorphism possible are the A or B alleles on that position) as well as the genetic value for each genotype class (colum labeled as G in the top table).
