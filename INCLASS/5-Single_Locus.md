@@ -7,17 +7,9 @@ In this inclass assigment you will need to compute the expected value, the varia
 The file provides the frequency for allele A (the locus is bi-allelic).
 
 
-2) **Fill the empty cells of top table (grey area)**.
-     - Calculating the genoype frequency assuming HWE. 
-     - Compute the information needed to compute the average genetic value (column Freq.X value) and the average squared value (column F).
+2) **Fill the empty cells of the table (grey area)**.
 
-3) **Fill the empty cells of the bottom table**
-     - E[G]
-     - Var[G]
-     - a
-     - d
-
-4) Create an R-script named `assignment.R`
+3) Create an R-script named `assignment.R`
 
 ```r
  ANS=list(
@@ -29,9 +21,9 @@ The file provides the frequency for allele A (the locus is bi-allelic).
 
 ```
 
-5) Fill the NA values in the list with the values you obtained in the excel file.
+4) Fill the NA values in the list with the values you obtained in the excel file.
 
-6) Submit `assignment.R`
+5) Submit `assignment.R`
 
 ## Submission to Gradescope
 
