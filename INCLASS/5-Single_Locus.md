@@ -4,7 +4,7 @@ In this inclass assigment you will need to compute the expected value, the varia
 1) **Download [this Excel file](https://www.dropbox.com/scl/fi/3o2vglpkriq3qfdrjkt4v/assignment.xls?rlkey=vjuwf4nxo303d6m22fxpg9m6s&dl=0)**
 
 
-The file provides a frequency for the allele A, so pA=Prob(A), and pB = Prob(B) = 1-pA, assuming the locus is biallelic (e.g., The only polymorphism possible are the A or B alleles on that position) as well as the genetic value for each genotype class (colum labeled as G in the top table).
+The file provides the frequency for allele A (the locus is bi-allelic).
 
 
 2) **Fill the empty cells of top table (grey area)**.
