@@ -9,7 +9,7 @@ The file provides the frequency for allele A (the locus is bi-allelic).
 
 2) **Fill the empty cells of the table (grey area)**.
 
-3) Create an R-script named `assignment.R`
+3) Create an R-script named `assignment.R` with the follwoing code
 
 ```r
  ANS=list(
