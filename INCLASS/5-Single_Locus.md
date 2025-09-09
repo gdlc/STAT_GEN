@@ -1,7 +1,7 @@
 In this inclass assigment you will need to compute the expected value, the variance, additive effect, and dominance deviation for a single locus under HWE.
 
 
-1) **Download thefollowing Excel file, available at**: 
+1) **Download thefollowing Excel file**: 
 
 [Single_Locus_Model](https://www.dropbox.com/scl/fi/3o2vglpkriq3qfdrjkt4v/assignment.xls?rlkey=vjuwf4nxo303d6m22fxpg9m6s&dl=0)
 
