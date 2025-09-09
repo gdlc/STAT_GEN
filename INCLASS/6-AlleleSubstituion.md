@@ -1,4 +1,4 @@
-Objectives:
+**Objectives**:
 
 Estimating additive, dominance, and allele substitution effects for a one-locus model with over-dominance and two different values of the frequency of the allele that increases the trait values.
 
