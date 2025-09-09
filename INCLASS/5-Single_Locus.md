@@ -1,13 +1,16 @@
-1) **Download the Excel file, available at**: 
+In this inclass assigment you will need to compute the expected value, the variance, additive effect, and dominance deviation for a single locus under HWE.
 
-[Single_Locus_Exercise]()
+
+1) **Download thefollowing Excel file, available at**: 
+
+[Single_Locus_Model](https://www.dropbox.com/scl/fi/3o2vglpkriq3qfdrjkt4v/assignment.xls?rlkey=vjuwf4nxo303d6m22fxpg9m6s&dl=0)
 
 
 The file provides a frequency for the allele A, so pA=Prob(A), and pB = Prob(B) = 1-pA, assuming the locus is biallelic (e.g., The only polymorphism possible are the A or B alleles on that position) as well as the genetic value for each genotype class (colum labeled as G in the top table).
 
 
 2) **Fill the empty cells of top table (grey area)**.
-     - Calculating the genoype frequency assuming HWE. The sum of proportions of the AA, AB, and BB sould be 1, verify that in row 7.
+     - Calculating the genoype frequency assuming HWE. 
      - Compute the information needed to compute the average genetic value (column Freq.X value) and the average squared value (column F).
 
 3) **Fill the empty cells of the bottom table**
@@ -16,9 +19,21 @@ The file provides a frequency for the allele A, so pA=Prob(A), and pB = Prob(B) 
      - a
      - d
 
-4) **Save the file** as assignment.xls (do not update to xlsx, otherwise the grader will fail to read it) named `assigment.xls` **and submit it**.
+4) Create an R-script named `assignment.R`
 
-The grader will check on a number of points (one per blank column of the top table) and one per empty cell in the bottom table. 
+```r
+ ANS=list(
+          EXPECTED_VALUE=NA,
+          VAR=NA,
+          a=NA,
+          d=NA
+     )
+
+```
+
+5) Fill the NA values in the list with the values you obtained in the excel file.
+
+6) Submit `assignment.R`
 
 ## Submission to Gradescope
 
