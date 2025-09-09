@@ -24,8 +24,3 @@ The file provides the frequency for allele A (the locus is bi-allelic).
 4) Fill the NA values in the list with the values you obtained in the excel file.
 
 5) Submit `assignment.R`
-
-## Submission to Gradescope
-
-  For your submission to Gradescope provide the Excel file named `assignment.xls` (lower case in the name, and lower case the extension) answering the questions shown above. 
-  You may submit your answer to Gradescope as many times as needed.
