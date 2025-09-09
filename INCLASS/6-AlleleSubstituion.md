@@ -30,11 +30,11 @@ Hints:
 
 **4) Report**
    
-From the simulation report your estimates of the intercept, `a`, `d`, and `alpha` in a vector
+From the simulation report your estimates of the intercept, `pA`,`a`, `d`, and `alpha` in a vector
 
 ```r
  ANS_2=c( , , ) # concatenate here your a, d, and alpha values
-names(ANS_2) = c('a','d','alpha')
+names(ANS_2) = c('pA', 'a','d','alpha')
 ```
 
 **Repeat (1)-(4) using pA=0.5 and report the results in a vector named `ANS_2`.**
