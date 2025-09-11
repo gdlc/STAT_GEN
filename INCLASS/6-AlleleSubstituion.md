@@ -39,7 +39,7 @@ Hints:
 
 **4) Report**
    
-From the simulation report your estimates of the intercept, `pB`,`a`, `d`, and `alpha` in a vector
+From the simulation report `pB`,`a`, `d`, and `alpha` in a vector
 
 ```r
  ANS_1=c('pB'=,'a'= ,'d'=,'alpha'= ) 
