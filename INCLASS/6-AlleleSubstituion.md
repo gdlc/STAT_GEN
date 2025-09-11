@@ -1,6 +1,6 @@
 **Objectives**:
 
-Estimating additive, dominance, and allele substitution effects for a one-locus model with over-dominance and two different values of the frequency of the allele that increases the trait values.
+Estimating additive, dominance, and allele substitution effects for a one-locus models using a linear regression approach, for different settings regarding allele frequency and dominance effect.
 
 
 **1) Simulate genetic values for a single locus with the following parameters:**
