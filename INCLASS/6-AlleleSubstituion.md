@@ -15,11 +15,13 @@ You can use this code to simulate the single-locus model described above
 
 ```r
  pB=0.95
- gAA=1
- gAB=2.5
- gBB=2
- X=rbinom(size=2,n=100000,prob=pB)
- G=ifelse(X==0,1,ifelse(X==1,2.5,2)
+ GAA=1
+ GAB=2.5
+ GBB=2
+
+ set.seed(5199)
+ X=rbinom(n=100000, size=2, prob=pB)
+ G=ifelse(X==0,GAA, ifelse(X==1, GAB, GBB))
  Y=G # heritability =1
 ```
     
