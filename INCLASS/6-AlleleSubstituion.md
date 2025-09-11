@@ -29,10 +29,10 @@ Hints:
 
 **4) Report**
    
-From the simulation report your estimates of the intercept, `pA`,`a`, `d`, and `alpha` in a vector
+From the simulation report your estimates of the intercept, `pB`,`a`, `d`, and `alpha` in a vector
 
 ```r
- ANS_1=c('a'= ,'d'=,'alpha'= ) 
+ ANS_1=c('pB'=,'a'= ,'d'=,'alpha'= ) 
 ```
 
 **Repeat (1)-(4) using pB=0.5 and report the results in a vector named `ANS_2`.** (same format)
