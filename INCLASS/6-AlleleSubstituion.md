@@ -11,15 +11,23 @@ Estimating additive, dominance, and allele substitution effects for a one-locus 
   - Heritability =1, that is Y=G (no environmental effects)
   - Sample size (N) =100000
 
-Hints: 
-  - To simulate genotypes you can use `rbinom(size=2, p=pB,n=N)`
-  - To map from genotypes to genetic values you can use `G=ifelse(X==0,GAA, ifelse(X==GAB,GBB))`
+You can use this code to simulate the single-locus model described above
+
+```r
+ pB=0.95
+ gAA=1
+ gAB=2.5
+ gBB=2
+ X=rbinom(size=2,n=100000,prob=pB)
+ G=ifelse(X==0,1,ifelse(X==1,2.5,2)
+ Y=G # heritability =1
+```
     
 **2) Estimate `a` and `d` using OLS**
 
 Hints: 
   - Create a dummy variable for the heterozygous `H=ifelse(X==1,1,0)`
-  - Regress, using `lm()` `G` on `X+H`
+  - Regress, using `lm()` `Y` on `X+H`
   - To retrieve estimates you can use `coef(fm)` where `fm` is the model you fitted.
   - The coefficients from this linear models are mu, a and d.  
 
