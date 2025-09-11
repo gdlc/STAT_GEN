@@ -47,7 +47,7 @@ From the simulation report your estimates of the intercept, `pB`,`a`, `d`, and `
 
 **Repeat (1)-(4) using pB=0.5 and report the results in a vector named `ANS_2`.** (same format)
 
-**Repeat (1)-(4) using pB=0.05 and d=0 and report the results in a vector named `ANS_3`.**
+**Repeat (1)-(4) using pB=0.05 and GAB=1.5and report the results in a vector named `ANS_3`.**
 
 ## Submission to Gradescope
 
