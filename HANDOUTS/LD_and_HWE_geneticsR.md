@@ -55,4 +55,4 @@ for(i in 1:ncol(W)){
 
 
 ```
-For details about various methods see [Graffelman, AJHG, 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2869018/)/
+For details about various methods see [Graffelman, AJHG, 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2869018/).
