@@ -29,7 +29,7 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | Allele Frequencies  |  | [binom.test()](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/BINOMIAL_CI.pdf)| [Allele Freq.](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/AlleleFreq.md) | 
 | Hardy-Weinberg Eq. | | | [HWE](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/HWE.md)  | 
 |  | | | [MiceGenos](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/miceGenomes.md) | 
-| **Sources of Genetic Variation** | [pdf](https://www.dropbox.com/scl/fi/pctkzw48fny4psckh0pje/5-ChangesInAlleleFrequency.pdf?rlkey=bvorwd2a110o9b1qy0fykehin&dl=0) |  | [HW1](https://github.com/gdlc/STAT_GEN/blob/main/HW/HW1_TEMPLATE.pdf) / [HW1 R Markdown template](https://github.com/gdlc/STAT_GEN/blob/main/HW/HW1_TEMPLATE.Rmd) |
+| **Sources of Genetic Variation** | [pdf](https://www.dropbox.com/scl/fi/pctkzw48fny4psckh0pje/5-ChangesInAlleleFrequency.pdf?rlkey=bvorwd2a110o9b1qy0fykehin&dl=0) |  | [HW1](https://github.com/gdlc/STAT_GEN/blob/main/HW/HW1_TEMPLATE.pdf); [HW1 R Markdown](https://github.com/gdlc/STAT_GEN/blob/main/HW/HW1_TEMPLATE.Rmd) |
 | **Single locus model** |  | [Mean & Variance](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/SINGLE_LOCUS_MEAN_AND_VARIANCE.pdf) | [Inclass 5](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/5-Single_Locus.md) ; [Inclass 6](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/6-AlleleSubstituion.md)|
 | **Linkage Disequilibrium** | [pdf](https://www.dropbox.com/scl/fi/dlnrvlwqmmcsiswjmn455/6-MeansAndVariances.pdf?rlkey=o3223lhysffdvgd8rwoq9pq6b&dl=0) | [genetics R-package](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/LD_and_HWE_geneticsR.md) | |
 | **Resamblance between Relatives** |  |  | |
