@@ -21,7 +21,7 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 
 
 
-| Topics | Slides | Handout| In-class | Homework|
+| Topics | Slides | Handout/Script| In-class | Homework|
 |----|----|---|---|----|
 |**Introduction to the course** | [pdf](https://www.dropbox.com/scl/fi/4ub3wm7jp0jnoy7wgle63/0-CourseStructureAndRules.pdf?rlkey=5tgw8y0mhvc15fov7at1eupw8&dl=0) |  |  | |
 |**Introduction to Quantitative Genetics** | [pdf](https://www.dropbox.com/scl/fi/wh8wp00t1p9gcyrdt5xo5/1-AbriefHistoryOfQuantiativeGenetics.pdf?rlkey=jed38em86mb2bp7uquly7hg2b&dl=0) | [Bulmer Ch. 1](https://www.dropbox.com/scl/fi/gw3j39wuslcr9fl9a0atx/Bulmer_Intro.pdf?rlkey=few0iou7shvyb1hu91jd2wfta&dl=0) | [Galton](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/Galton.md) | |
