@@ -10,7 +10,7 @@
 
 2) Recode genotypes from A/C/G/T to allele dossage format (0/1/2)
 
-``r
+```r
  recode=function(x){ as.integer(factor(x))-1 }
  X=apply(FUN=recode,X=W,MARGIN=2)
 ```
