@@ -1,4 +1,6 @@
 
+## Assignment
+
 1) Read genotypes
  (Mice genotypes for 100 SNPs)
 
@@ -19,10 +21,14 @@
   ANS_1=rep(NA,ncol(W)-1) # Use this vector to store the absolute value of D
   ANS_2=ANS_1
 ```
-Hints:
 
+Hints:
   - Within a loop (from `1:I(ncol(W)0-1)`) compute
      - D using `LD(genotype(W[,1]),genotype(W[,i+1]))$D`
      - Store abs(D) in `ANS_1[i]`
      - Compute `abs(cor(X[,1],X[,i+1]))` and store it in `ANS_2[i]`.
-   
+
+## Submission to Gradescope
+
+For your submission to grade scope provide an R-script named `assignment.R` (match case) answering the questions shown above. You may submit your answer to Gradescope as many times as needed.
+
