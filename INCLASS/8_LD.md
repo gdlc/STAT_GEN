@@ -26,7 +26,7 @@ Hints:
   - Within a loop (from `1:I(ncol(W)0-1)`) compute
      - D using `LD(genotype(W[,1]),genotype(W[,i+1]))$D`
      - Store abs(D) in `ANS_1[i]`
-     - Compute `abs(cor(X[,1],X[,i+1]))` and store it in `ANS_2[i]`.
+     - Compute `abs(cov(X[,1],X[,i+1]))/2` and store it in `ANS_2[i]`.
 
 ## Submission to Gradescope
 
