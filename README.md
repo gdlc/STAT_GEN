@@ -31,7 +31,7 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 |  | | | [MiceGenos](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/miceGenomes.md) | 
 | **Sources of Genetic Variation** | [pdf](https://www.dropbox.com/scl/fi/pctkzw48fny4psckh0pje/5-ChangesInAlleleFrequency.pdf?rlkey=bvorwd2a110o9b1qy0fykehin&dl=0) |  | [HW1](https://github.com/gdlc/STAT_GEN/blob/main/HW/HW1_TEMPLATE.pdf); [HW1 R Markdown](https://github.com/gdlc/STAT_GEN/blob/main/HW/HW1_TEMPLATE.Rmd) |
 | **Single locus model** |  | [Mean & Variance](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/SINGLE_LOCUS_MEAN_AND_VARIANCE.pdf) | [Inclass 5](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/5-Single_Locus.md) ;       [Inclass 6](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/6-AlleleSubstituion.md)|
-| **Linkage Disequilibrium** | [pdf](https://www.dropbox.com/scl/fi/tmo2sxdtqh51q6nkb94cm/7_LD.pdf?rlkey=5eqndqxwl3j6jfftv1r8foje1&dl=1) | [genetics R-package](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/LD_and_HWE_geneticsR.md) | |
+| **Linkage Disequilibrium** | [pdf](https://www.dropbox.com/scl/fi/tmo2sxdtqh51q6nkb94cm/7_LD.pdf?rlkey=5eqndqxwl3j6jfftv1r8foje1&dl=1) | [genetics R-package](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/LD_and_HWE_geneticsR.md) | [Inclas 8-LD](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/8_LD.md) |
 | **Resamblance between Relatives** |  |  | |
 | **Multi-locus models** |  |  | |
 | **Midterm Tuesday Oct 21st (tentative)** |  |  | |
