@@ -18,3 +18,8 @@ You can use this template greate the `assignment.R` file that you will submit (f
  ANS_4=NA  # fullsibs
 
 ```
+
+
+## Submission to Gradescope
+
+For your submission to grade scope provide an R-script named `assignment.R` (match case) answering the questions shown above. You may submit your answer to Gradescope as many times as needed.
