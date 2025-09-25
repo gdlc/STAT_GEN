@@ -33,7 +33,7 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | **Single locus model** |  | [Mean & Variance](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/SINGLE_LOCUS_MEAN_AND_VARIANCE.pdf) | [Inclass 5](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/5-Single_Locus.md) ;       [Inclass 6](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/6-AlleleSubstituion.md)|
 | **Linkage Disequilibrium** | [pdf](https://www.dropbox.com/scl/fi/tmo2sxdtqh51q6nkb94cm/7_LD.pdf?rlkey=5eqndqxwl3j6jfftv1r8foje1&dl=1) | [genetics R-package](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/LD_and_HWE_geneticsR.md) | [Inclass 8-LD](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/8_LD.md) |
 | **Coancestry & Inbreeding** | [pdf](https://www.dropbox.com/scl/fi/3bon8cgwwok4humo44wku/8_KINSHIP_AND_PHENOTYPIC_RESEMBLANCE_ONE_LOCUS.pdf?rlkey=yfqee5cd5e2anyyk7jnrm213j&dl=0)  |  | [Inclass 9](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/9_COANCESTRY.md) |
-| **Resamblance between Relatives** | (same slides) |  | [Inclass 10](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/10_RESEMBLANCE.md) |
+| **Resamblance between Relatives** |  |  | [Inclass 10](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/10_RESEMBLANCE.md) | [HW2](https://github.com/gdlc/STAT_GEN/blob/main/HW/HW2_LD_AND_Kinship.pdf) |
 | **Pedigree Vs Genomic Additive Relationships** |  |  |  |
 | **Multi-locus models** |  |  | |
 | **Midterm Tuesday Oct 14** |  |  | |
