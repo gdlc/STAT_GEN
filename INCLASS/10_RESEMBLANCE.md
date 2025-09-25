@@ -1,4 +1,4 @@
-
+The following code simulates genotypes for two sets of parents (`P1` and `P2`) under HWE.
 
 ```r
 
@@ -13,6 +13,10 @@ a=1 # additive effect
  P1=matrix(nrow=nF,ncol=2,rbinom(n=nF*2,prob=p,size=1))
  P2=matrix(nrow=nF,ncol=2,rbinom(n=nF*2,prob=p,size=1))
 
+```
+ Now we simulate offspring genotypes, 2 offspring
+
+```r
 # Objects to store offsping genotypes
  O1=matrix(nrow=nF,ncol=2,NA) # sibling 1
  O2=matrix(nrow=nF,ncol=2,NA) # sibling 2
