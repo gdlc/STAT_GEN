@@ -68,6 +68,13 @@ Using the model parameters and the simulated genetic values, compute and report:
   - `ANS_3` The genetic (co)variance between the full sibs in the population (derive it from model parameters and the kinship between full sibs).
   - `ANS_4` The sample (co)variance between the genetic values of full sibs.
 
+
+
+### Submission to Gradescope
+
+Replace the NAs in the script below with the values you got, include them in a finl named `assignment.R` and submit it in Gradescope–you may submit your answer to Gradescope as many times as needed.
+
+
 ```r
 # Genetic variance
  ANS_1=NA # genetic variance at the locus in the population. 
@@ -85,7 +92,6 @@ Using the model parameters and the simulated genetic values, compute and report:
 
 
 
-## Submission to Gradescope
 
 For your submission to Gradescope provide an R-script named `assignment.R` (match case) answering the questions shown above. You may submit your answer to Gradescope as many times as needed.
 
