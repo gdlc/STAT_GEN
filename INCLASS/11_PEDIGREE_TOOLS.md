@@ -2,6 +2,7 @@
 ### Pedigree
 Using the following pedigree
 
+![http://url/to/img.png](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/pedigree.png)
 
 ### 1) Additive relationship matrix
 
