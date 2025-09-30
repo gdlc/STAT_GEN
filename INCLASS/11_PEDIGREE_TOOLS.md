@@ -11,7 +11,7 @@ Using the following pedigree
 
 ### 2) Inbreeding
 
-Report in `ANS_2` the probability that subject `F` carries alleles that are IBD.
+Report in `ANS_2` the probability that subject `G` carries alleles that are IBD.
 
 
 
