@@ -4,12 +4,10 @@ Using the following pedigree
 
 ![http://url/to/img.png](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/pedigree.png)
 
-### 1) Additive relationship matrix
+### 1) Compute an additive relationship matrix for all the subjects appearing in the pedigree
 
-Use PedigreeTools to compute an additive relationship matrix between all the subjects appearing in the pedgiree. 
-The matrix should have the IDs as rownames.
-
-Store the matrix in `ANS_1`.
+ - The matrix should have the IDs as rownames.
+ - Store the matrix in `ANS_1`.
 
 ### 2) Inbreeding
 
