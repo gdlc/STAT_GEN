@@ -35,7 +35,7 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | **Coancestry & Inbreeding** | [pdf](https://www.dropbox.com/scl/fi/3bon8cgwwok4humo44wku/8_KINSHIP_AND_PHENOTYPIC_RESEMBLANCE_ONE_LOCUS.pdf?rlkey=yfqee5cd5e2anyyk7jnrm213j&dl=0)  |  | [Inclass 9](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/9_COANCESTRY.md) |
 | **Resamblance between Relatives** |  |  | [Inclass 10](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/10_RESEMBLANCE.md) | [HW2](https://github.com/gdlc/STAT_GEN/blob/main/HW/HW2_LD_AND_Kinship.pdf) |
 | **Computing additive relationships from pedigree** | [pdf](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/PEDIGREE_TOOLS.pdf) |  | [Inclass 11](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/11_PEDIGREE_TOOLS.md) |
-| **Multi-locus models** |  | [Means & Variances](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/MEANS_AND_VARIANCE.pdf)  | |
+| **Multi-locus models** |  | [Means & Variances](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/MEANS_AND_VARIANCES.pdf)  | [Inclass 12](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/12_TWO_LOCUS_ADDITIVE_MODEL.md)|
 | **Midterm Tuesday Oct 14** |  |  | |
 | **GWAS** |  |  | |
 | **Heritability estimation** |  |  | |
