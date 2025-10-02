@@ -85,3 +85,8 @@ The genic variance is the variance of genetic values in an ideal population in H
 Finally, compute the sample variance at locus 1 and 2, add these variances and report it in `ANS_3`.
 
 
+
+### Submission to Gradescope 
+
+Provide an R-script named `assignment.R` (match case) answering the questions shown above. You may submit your answer to Gradescope as many times as needed.
+
