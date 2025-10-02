@@ -78,7 +78,7 @@ Now we form diplid genotypes by mating gametes at random, and perform some check
 
 Using the data simulated above (include the *magic* seed) caluclate the additive variance for this two locus model assuming `a1=a2=0.5`, store the value in `ANS_1`.
 
-The genic variance is the variance of genetic values in an ideal population in HWE and LE. Under these conditions we can compute variance of the genetic values in that population as the sum of the locus specific variances, each derived from allele frequencies and additive effects (a1 and a2). Compute the genic variance using this approach and store it in `ANS_2`. 
+The genic variance is the variance of genetic values in an ideal population in HWE and LE. Under these conditions, the variance of the the genetic values in that population is the sum of the locus-specific variances, each derived from allele frequencies and additive effects (a1 and a2). Compute the genic variance using this approach and store it in `ANS_2`. 
 
 
 
