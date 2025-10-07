@@ -36,7 +36,7 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | **Resamblance between Relatives** |  |  | [Inclass 10](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/10_RESEMBLANCE.md) | [HW2](https://github.com/gdlc/STAT_GEN/blob/main/HW/HW2_LD_AND_Kinship.pdf) |
 | **Computing additive relationships from pedigree** | [pdf](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/PEDIGREE_TOOLS.pdf) |  | [Inclass 11](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/11_PEDIGREE_TOOLS.md) |
 | **Multi-locus models** |  | [Means & Variances](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/MEANS_AND_VARIANCES.pdf)  | [Inclass 12](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/12_TWO_LOCUS_ADDITIVE_MODEL.md)|
-| **Polygenic Additive Model** |  | [Means & Variances](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/MEANS_AND_VARIANCES.pdf)  | [Inclass 13](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/12_POLYGENIC.md)|
+| **Polygenic Additive Model** |  | [Means & Variances](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/MEANS_AND_VARIANCES.pdf)  | [Inclass 13]([https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/12_POLYGENIC.md](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/13_SELECTION_TWO_LOCI.md))|
 | **Midterm Tuesday Oct 14** |  |  | |
 | **GWAS** |  |  | |
 | **Heritability estimation** |  |  | |
