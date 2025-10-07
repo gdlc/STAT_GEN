@@ -41,7 +41,7 @@ Using the data simulated by the script (keep the seed) and the selection made (`
   - The trait heritability in the un-selected pouplation (`ANS_1`)
   - The allele frequency of locus 1 in the selected sample (`ANS_2`) 
   - The allele frequency of locus 2 in the selected sample (`ANS_3`)
-  - The covariance between locus 1 and 2 in the selected sample (`ANS_4`)
+  - The correlation between genotypes at locus 1 and 2 in the selected sample (`ANS_4`)
   - The variance of genetic values in the original sample, i.e., before selection (`ANS_5`)
   - The variance of the genetic value sin the selected sample (`ANS_6`)
 
