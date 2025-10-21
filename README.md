@@ -38,7 +38,8 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | **Multi-locus models** |  | [Means & Variances](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/MEANS_AND_VARIANCES.pdf)  | [Inclass 12](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/12_TWO_LOCUS_ADDITIVE_MODEL.md)|
 | **Polygenic Additive Model** |  | [Means & Variances](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/MEANS_AND_VARIANCES.pdf)  | [Inclass 13](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/13_SELECTION_TWO_LOCI.md)|
 | **Midterm Tuesday Oct 14** |  |  | |
-| **GWAS** |  |  | |
+| **GWAS** |  |  | [HW3[(https://github.com/gdlc/STAT_GEN/blob/main/HW/HW3_GWAS/HW_3_GWAS.pdf)|
+|   |   |   |   |
 | **Heritability estimation** |  |  | |
 | **Genetic Variance With or Without Linkage Disequilibirum?** |  |  | |
 | **Genomic Prediction** |  |  | |
