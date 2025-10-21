@@ -1,5 +1,5 @@
-## This code was develop for instruction only
-## Please do not distribute it and use it at your own risk!
+## This code was developed for isntructrion, please do not distribute it and use it at your own risk!
+## gustavoc@msu.edu
 
 neg2LogLik<-function(logVar,V,y,d,n=length(y)){
   y<-y-mean(y)
