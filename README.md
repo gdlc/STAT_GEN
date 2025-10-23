@@ -39,7 +39,9 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | **Polygenic Additive Model** |  | [Means & Variances](https://github.com/gdlc/STAT_GEN/blob/main/HANDOUTS/MEANS_AND_VARIANCES.pdf)  | [Inclass 13](https://github.com/gdlc/STAT_GEN/blob/main/INCLASS/13_SELECTION_TWO_LOCI.md)|
 | **Midterm Tuesday Oct 14** |  |  | |
 | **GWAS** |  |  | | [HW3](https://github.com/gdlc/STAT_GEN/blob/main/HW/HW3_GWAS/HW_3_GWAS.pdf)|
-|   Reviews and Tutorials  | [MareesEtAl](https://github.com/gdlc/STAT_GEN/blob/main/ARTICLES/MareesEtAl.pdf) , [UffelmanEtAl](https://github.com/gdlc/STAT_GEN/blob/main/ARTICLES/Uffelmann.pdf) , [AbdellaouiEtAl.](https://github.com/gdlc/STAT_GEN/blob/main/ARTICLES/AbdellaouiEtAl.pdf)   | |
+|   Reviews and Tutorials  | [MareesEtAl](https://github.com/gdlc/STAT_GEN/blob/main/ARTICLES/MareesEtAl.pdf) , [UffelmanEtAl](https://github.com/gdlc/STAT_GEN/blob/main/ARTICLES/Uffelmann.pdf) , [AbdellaouiEtAl.](https://github.com/gdlc/STAT_GEN/blob/main/ARTICLES/AbdellaouiEtAl.pdf)  , [Pike (2010)](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.2041-210X.2010.00061.x) | |
+|   Slides and Handouts  | [slides](https://www.dropbox.com/scl/fi/fxvr53mvtu3ktjzcepgd9/GWAS.pdf?rlkey=xjbjrw16asqfksiaru0sz6boh&dl=0) | [Multiple Testing](https://github.com/gdlc/STAT_COMP/blob/master/HANDOUTS/MultipleTesting.pdf) |
+
 | **Heritability estimation** |  |  | |
 | **Genetic Variance With or Without Linkage Disequilibirum?** |  |  | |
 | **Genomic Prediction** |  |  | |
