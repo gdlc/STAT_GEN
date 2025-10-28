@@ -1,0 +1,266 @@
+---
+title: "Genome Wide Association Analyses (II)"
+date: Oct 28, 2025
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+runGWAS=FALSE
+library(data.table)
+```
+
+# **GWAS**
+
+ - GWAS Example using an Arabidopsis data set
+ 
+ - Evaluating results
+   - Manhattan plots
+   - qq-plots
+   - P-value inflation
+\vspace{0.05in}
+ - We will do the above for three different models
+   - Naive (without accounting for pop. sturcture and genomic relationships)
+   - Including 5 SNP-derived PCs in the mdoel
+   - Using a mixed effects model (i.e., accounting for genomic relathionshps) 
+
+# **Naive Association Testing Using an Arabidopsis data set**
+
+### Data
+ 
+ The data used is from the Arabidopsis consortium. For further details we refer you to [ Zan & Carlborg (Yanjun Zan  1 , Örjan Carlborg ) ](https://pubmed.ncbi.nlm.nih.gov/30388255/).
+ 
+```{r}
+ GENO=readRDS("~/Dropbox/STAT_GEN/archive/2023/GWAS/data/Arabidopsis1001genomes_geno.Rds")
+ MAP=readRDS("~/Dropbox/STAT_GEN/archive/2023/GWAS/data/Arabidopsis1001genomes_map.Rds")
+ PHENO=readRDS("~/Dropbox/STAT_GEN/archive/2023/GWAS/data/Arabidopsis1001genomes_pheno.Rds")
+ 
+ head(PHENO,3)
+ dim(GENO)
+ head(MAP,3)
+ 
+```
+
+# Phenotype
+
+```{r}
+ 
+ y=PHENO$FT10_mean
+ hist(y,30)
+ 
+
+```
+# Association analysis
+
+First, lets do a naive association analysis without accounting for population structure. 
+Although this is not highly efficient, let's do it using pure R code.
+The function `lsfit()` is similar to lm but faster.
+
+(Note: this code will take a few minutes to run)
+
+```{r,eval=runGWAS,echo=FALSE}
+n=nrow(PHENO)
+p=ncol(GENO)
+
+GWAS=data.frame(SNP=colnames(GENO),freqNA=NA,
+                maf=NA,estimate=NA,SE=NA,z=NA,pValue=NA)
+
+for(i in 1:ncol(GENO)){
+  x=GENO[,i]
+  GWAS$freqNA[i]=mean(is.na(x))
+  tmp=mean(x,na.rm=TRUE)/2
+  GWAS$maf[i]=ifelse(tmp<0.5,tmp,1-tmp)
+  fm<-lsfit(y=y,x=x) 
+  results=ls.print(fm,print.it=FALSE)
+  
+  GWAS[i,4:7]= results$coef.table[[1]][2,] # extracting estimate, SE, z, and p-value
+}
+
+library(data.table)
+fwrite(GWAS,file='GWAS_ARABIDOPSIS_NAIVE.csv',sep=',')
+
+```
+
+
+
+```{r,eval= (!runGWAS),echo=FALSE}
+  library(data.table)
+  GWAS=fread('GWAS_ARABIDOPSIS_NAIVE.csv',sep=',',data.table=FALSE)
+
+```
+
+# Manhattan plot (naive GWAS)
+
+```{r}
+ suppressMessages(library(qqman))
+ DF=data.frame(SNP=colnames(GENO),CHR=MAP$chr,BP=MAP$pos,P=GWAS$pValue)
+ manhattan(DF,genomewideline=0.05/ncol(GENO))   
+```
+
+# QQ plot (naive GWAS)
+
+```{r}
+ qq(DF$P)
+ 
+```
+
+# Assesment of population structure
+
+**SNP-derived principal components**
+
+ - We will compute a genomic relationship matrix using 10,000 evenly spaced SNPs,
+ - Then extract the top-2 eigenvectors
+ - Plot the scores for the top-2 eigenvectors, coloring by genetic group.
+
+```{r}
+ p=ncol(GENO)
+ tmp=round(seq(from=10,to=p-10,length=10000))
+ Z=scale(GENO[,tmp],center=TRUE,scale=FALSE)
+ G=tcrossprod(Z)
+ G=G/mean(diag(G))
+ EVD=eigen(G)
+ DF=data.frame(V1=EVD$vectors[,1],V2=EVD$vectors[,2],group=PHENO$group)
+ library(ggplot2)
+ p=ggplot(DF,aes(x=V1,y=V2,col=group))+geom_point()
+ plot(p)
+```
+
+# GWAS accounting for population structure using 5 PCs
+
+ - Lets include the top-5 PCs in the model
+ 
+```{r,eval=runGWAS}
+ 
+ Z=as.matrix(EVD$vectors[,1:5])
+ H0=lm(y~Z) # baseline model
+ 
+ GWAS2=data.frame(SNP=colnames(GENO),freqNA=NA,
+                maf=NA,estimate=NA,SE=NA,z=NA,pValue=NA)
+ GWAS2$freqNA=GWAS$freqNA
+ GWAS2$maf=GWAS$maf
+ 
+
+for(i in 1:ncol(GENO)){
+  x=GENO[,i]
+  Ha<-update(H0,.~.+GENO[,i]) # updating the baseline model adding 1 SNP
+  GWAS2[i,4:7]= summary(Ha)$coef[7,] # extracting estimates, SE and p-values
+  if(i%%1000==0) print(i)
+}
+ 
+ fwrite(GWAS2,file='GWAS_ARABIDOPSIS_5PCs.csv',sep=',')
+
+```
+
+
+```{r,eval= (!runGWAS),echo=FALSE}
+  GWAS2=fread('GWAS_ARABIDOPSIS_5PCs.csv',sep=',',data.table=FALSE)
+```
+
+# Manhattan plot (with 5 PCs)
+
+```{r}
+ DF2=data.frame(SNP=colnames(GENO),CHR=MAP$chr,BP=MAP$pos,P=GWAS2$pValue)
+ manhattan(DF2,genomewideline=0.05/ncol(GENO))   
+```
+
+# QQ plot (with 5 PCs)
+
+ - The qqplot looks better but still shows evidence of p-value inflation.
+ - This happens because 5 PCs in this case are not enough to account for genomic relationships in this data set.
+
+```{r}
+ qq(DF2$P)
+```
+
+
+# Mixed effects models
+
+$$y=X+Zu+\varepsilon$$
+
+
+- $y_{n×1}$ phenotype vector,
+- $X_{n×q}$ incidence matrix for fixed effects (baseline model + 1 SNP)
+- $Z_{n×r}$ links observations to genotypes (if we have one measurement per genotype, $n=r$ and $Z=I$,
+- $u_{r×1}$ vector of random effects (used to model a polygenic component), $u\sim N(0,G\sigma_u^2 )$,
+- $\varepsilon_{n×1}$ vector of error terms, typically, $\varepsilon \sim N(0,I\sigma_\varepsilon^2 )$.
+- The heritability in this model is $h^2=(\sigma_u^2)/(\sigma_u^2+\sigma_\varepsilon^2 )$.
+
+
+# Estimation (classical approach, REML+GLS)
+
+- Estimate variance parameters ($\sigma^2_u$ and $\sigma^2_{\varepsilon}$) using REML (or ML)
+- Estimate $\beta$ through Maximum Likelihood, conditional on variance parameters, the estimator a Generalized Least Squares of the following form
+
+
+$$\hat{\beta}=[X'V^{-1}X]^{-1}X'V^{-1}y$$
+
+
+Where $V=[ZGZ'\sigma_u^2+I\sigma_\varepsilon^2 ]$ is the phenotypic (co)variance matrix.
+
+
+
+
+# GWAS using GLS (i.e., including a GRM)
+
+### 1) Estimating variance components
+
+```{r,eval=!runGWAS}
+ # using custom code, try GENESIS as well! (see HW3) 
+  source('https://raw.githubusercontent.com/gdlc/STAT_GEN/refs/heads/main/HW/HW3_GWAS/h2_ML_REML.R')
+  
+  fm=fitREML(y=PHENO$FT10_mean,K=G) # can pass EVD instead of G
+
+```
+
+
+### 2) GWAS using GLS
+
+Here I use custom code, I engourage you to try GENESIS and/or GCTA (see HW and handouts for examples)
+
+
+```{r,eval=!runGWAS}
+ source('https://raw.githubusercontent.com/gdlc/STAT_GEN/refs/heads/main/HW/HW3_GWAS/GWAS_OLS_GLS.R')
+ Z=matrix(nrow=nrow(GENO),ncol=1,1)
+ 
+ system.time(GWAS3<-SMR.GLS(y=y,X=GENO,G=G,Z=Z,varComp=fm$estimates))
+ head(GWAS3)
+
+```
+
+```{r,eval= (!runGWAS),echo=FALSE}
+  GWAS3=fread('GWAS_ARABIDOPSIS_GRM.csv',sep=',',data.table=FALSE)
+```
+
+
+# Manhattan plot (with GRM)
+
+```{r}
+ DF3=data.frame(SNP=colnames(GENO),CHR=MAP$chr,BP=MAP$pos,P=GWAS3$pValue)
+ manhattan(DF3,genomewideline=0.05/ncol(GENO))   
+```
+
+# QQ plot (with 5 PCs)
+
+ - The qqplot looks better but still shows evidence of p-value inflation.
+ - This happens because 5 PCs in this case are not enough to account for genomic relationships in this data set.
+
+```{r}
+ qq(DF3$P)
+```
+
+# P-value inflation
+
+Here we present the p-value inflation statistic, which is defined as the median association test statistic divided by the expected median under the null hypothesis (recall that under H0 pvalues follow a uniform distribution).
+
+We see that adding PCs and using mixed effects models reduce p-value inflation, however, a significant level of inflation remains. 
+
+```{r}
+ source('https://raw.githubusercontent.com/gdlc/STAT_GEN/refs/heads/main/HW/HW3_GWAS/GWAS_OLS_GLS.R')
+ 
+ # Naive GWAS
+  estlambda(GWAS$pValue)
+ # PCs
+  estlambda(GWAS2$pValue)
+ # Mixed effects model
+  estlambda(GWAS3$pValue)
+```
