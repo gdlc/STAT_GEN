@@ -42,6 +42,7 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 |   Reviews and Tutorials  | [MareesEtAl](https://github.com/gdlc/STAT_GEN/blob/main/ARTICLES/MareesEtAl.pdf) , [UffelmanEtAl](https://github.com/gdlc/STAT_GEN/blob/main/ARTICLES/Uffelmann.pdf) , [AbdellaouiEtAl.](https://github.com/gdlc/STAT_GEN/blob/main/ARTICLES/AbdellaouiEtAl.pdf)  , [Pike (2010)](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.2041-210X.2010.00061.x) | |
 |  Introduction | [GWAS 1](https://www.dropbox.com/scl/fi/iazihjw59z6bq2znnbenb/GWAS_1.pdf?rlkey=t9pbf944no94lifzxmiae7an0&dl=0) | [Multiple Testing](https://github.com/gdlc/STAT_COMP/blob/master/HANDOUTS/MultipleTesting.pdf) | | |
 | Controlling for Genetic Confunding | [GWAS 2](https://www.dropbox.com/scl/fi/yatxnypr8z7ytd1wjkict/GWAS_2.pdf?rlkey=anxxxf2cr2vxcj8ntqiog4tlu&dl=0) | | |
+| Post-GWAS (refining GWAS peaks) | [GWAS 3](https://www.dropbox.com/scl/fi/fjq5twpyq5r3z6wzsyfps/GWAS_3.pdf?rlkey=mqwfbh6heka1m4mpfuvwpll6q&dl=0) | | |
 | **Heritability estimation** |  |  | |
 | **Genetic Variance With or Without Linkage Disequilibirum?** |  |  | |
 | **Genomic Prediction** |  |  | |
