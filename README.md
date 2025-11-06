@@ -44,7 +44,6 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | Controlling for Genetic Confunding | [GWAS 2](https://www.dropbox.com/scl/fi/yatxnypr8z7ytd1wjkict/GWAS_2.pdf?rlkey=anxxxf2cr2vxcj8ntqiog4tlu&dl=0) | | |
 | Post-GWAS (refining GWAS peaks) | [GWAS 3](https://www.dropbox.com/scl/fi/fjq5twpyq5r3z6wzsyfps/GWAS_3.pdf?rlkey=mqwfbh6heka1m4mpfuvwpll6q&dl=0) | | |
 | Power in GWAS| [Power GWAS](https://www.dropbox.com/scl/fi/xn6ht1auom6rjvgae4ppv/PowerGWAS.pdf?rlkey=de769629thd1142dfwzonftb4&dl=0) | | |
-
 | **Heritability estimation** |  |  | |
 | Estimation Methods |  |  | |
 | Trait Vs SNP heritability |  | |
