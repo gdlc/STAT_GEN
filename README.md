@@ -50,4 +50,4 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | Genetic Variance With or Without Linkage Disequilibirum? |  |  | |
 | **HW 4** | [HW4](https://www.dropbox.com/scl/fi/nsnpitg3fyhudar1tr1mo/HW4.pdf?rlkey=i1md7pyi3rs32ux35pb7w7356&dl=0) |  | |
 | **Genomic Prediction** |  |  | |
-| **HW 5** | [HW5]([https://www.dropbox.com/scl/fi/nsnpitg3fyhudar1tr1mo/HW4.pdf?rlkey=i1md7pyi3rs32ux35pb7w7356&dl=0](https://www.dropbox.com/scl/fi/73vmbuy5o08y0ogkvy207/HW5.pdf?rlkey=dvq8ng61p3z926hwfbtclktfs&dl=0)) |  | |
+| **HW 5** | [HW5](https://www.dropbox.com/scl/fi/73vmbuy5o08y0ogkvy207/HW5.pdf?rlkey=dvq8ng61p3z926hwfbtclktfs&dl=0) |  | |
