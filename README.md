@@ -48,5 +48,6 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | [Estimation Methods](https://www.dropbox.com/scl/fi/stl88vw468eyd0n1nmdu9/GENETIC_AND_GENIC.pdf?rlkey=00b8236uv0o6exa6yl5qrtngm&dl=0) |  |  | |
 | Trait Vs SNP heritability |  | |
 | Genetic Variance With or Without Linkage Disequilibirum? |  |  | |
+| **HW 4** | [HW4](https://www.dropbox.com/scl/fi/nsnpitg3fyhudar1tr1mo/HW4.pdf?rlkey=i1md7pyi3rs32ux35pb7w7356&dl=0) |  | |
 | **Genomic Prediction** |  |  | |
-| **There will be no final exam** |  |  | |
+| **HW 5** | [HW5]([https://www.dropbox.com/scl/fi/nsnpitg3fyhudar1tr1mo/HW4.pdf?rlkey=i1md7pyi3rs32ux35pb7w7356&dl=0](https://www.dropbox.com/scl/fi/73vmbuy5o08y0ogkvy207/HW5.pdf?rlkey=dvq8ng61p3z926hwfbtclktfs&dl=0)) |  | |
