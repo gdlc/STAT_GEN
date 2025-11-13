@@ -49,4 +49,4 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | Trait Vs SNP heritability |  | |
 | Genetic Variance With or Without Linkage Disequilibirum? |  |  | |
 | **Genomic Prediction** |  |  | |
-| **Final Exam  Thu 12/11/2025 12:45PM-2:45PM (tentative)** |  |  | |
+| **There will be no final exam** |  |  | |
