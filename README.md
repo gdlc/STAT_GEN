@@ -46,7 +46,7 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | Power in GWAS| [Power GWAS](https://www.dropbox.com/scl/fi/xn6ht1auom6rjvgae4ppv/PowerGWAS.pdf?rlkey=de769629thd1142dfwzonftb4&dl=0) | | |
 | **Heritability estimation** |  |  | |
 | [Estimation Methods](https://www.dropbox.com/scl/fi/stl88vw468eyd0n1nmdu9/GENETIC_AND_GENIC.pdf?rlkey=00b8236uv0o6exa6yl5qrtngm&dl=0) |  |  | |
-| Trait Vs SNP heritability | [pdf]()https://www.dropbox.com/scl/fi/v12e0vk52386x16jvreg1/TRAIT_VS_SNP_HERITABILITY.pdf?rlkey=tg5tcyhzjp5lxzu1d1kzxgtge&dl=0 | [RMarkdown](https://www.dropbox.com/scl/fi/1d35vw28sqcn6e9p206eq/TRAIT_VS_SNP_HERITABILITY.Rmd?rlkey=hyc2p9iadrr5tftue0mcudx2p&dl=0) |
+| Trait Vs SNP heritability | [pdf](https://www.dropbox.com/scl/fi/v12e0vk52386x16jvreg1/TRAIT_VS_SNP_HERITABILITY.pdf?rlkey=tg5tcyhzjp5lxzu1d1kzxgtge&dl=0) | [RMarkdown](https://www.dropbox.com/scl/fi/1d35vw28sqcn6e9p206eq/TRAIT_VS_SNP_HERITABILITY.Rmd?rlkey=hyc2p9iadrr5tftue0mcudx2p&dl=0) |
 | Genetic Variance With or Without Linkage Disequilibirum? |  |  | |
 | **HW 4** | [HW4](https://www.dropbox.com/scl/fi/nsnpitg3fyhudar1tr1mo/HW4.pdf?rlkey=i1md7pyi3rs32ux35pb7w7356&dl=0) |  | |
 | **Genomic Prediction** |  |  | |
