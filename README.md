@@ -49,13 +49,13 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | Trait Vs SNP heritability | [pdf](https://www.dropbox.com/scl/fi/v12e0vk52386x16jvreg1/TRAIT_VS_SNP_HERITABILITY.pdf?rlkey=tg5tcyhzjp5lxzu1d1kzxgtge&dl=0) | [RMarkdown](https://www.dropbox.com/scl/fi/1d35vw28sqcn6e9p206eq/TRAIT_VS_SNP_HERITABILITY.Rmd?rlkey=hyc2p9iadrr5tftue0mcudx2p&dl=0) |
 | **HW 4** | [HW4](https://www.dropbox.com/scl/fi/nsnpitg3fyhudar1tr1mo/HW4.pdf?rlkey=i1md7pyi3rs32ux35pb7w7356&dl=0) |  | |
 | **Genomic Prediction** |  |  | |
-|   [Conceptual Framework]() |  |  | |
-|   [Building models using independent screening]() |  |  | |
-|   [Forward regression]() |  |  | |
-|   [Principal component regression]() |  |  | |
-|   [Penalized Regression]() |  |  | |
-|   [Bayesian Srhinkage and Variable Selection]() |  |  | |
-|   [Nerual Networks]() |  |  | |
-|   [Kernel Regression]() |  |  | |
-|   [XGBoost]() |  |  | |
+|   [Conceptual Framework](https://www.dropbox.com/scl/fi/w0vbe81q2qhfsc0nltkq0/GenomicPrediction_1_Framework.pdf?rlkey=no5kletmlqym8y14ahz88pasy&dl=0) |  |  | |
+|   [Building models using independent screening](https://www.dropbox.com/scl/fo/gemz2gcc0e1bezz7noked/AM3I5e_wOnJhOF6iHCL6E1g?rlkey=zzvaz78voy3fnq57bi4que9c7&dl=0) |  |  | |
+|   [Forward regression](https://www.dropbox.com/scl/fo/xa791f4gbjwcotvvv5py6/AEg_wRxsaGIoAilbCxPebK4?rlkey=wtivfsn91bkoo7kp9xihc44ah&dl=0) |  |  | |
+|   [Principal component regression](https://www.dropbox.com/scl/fo/1exqe4atjaqm0h4dg38gj/ANbaaniblMIDjfU49LM8GI0?rlkey=6g0qtkuxtkobme09o2xdhxque&dl=0) |  |  | |
+|  [GBLUP](https://www.dropbox.com/scl/fo/4loc0gixs3iugkfk1ntaz/APxLf7rBoyUcZIAIfoIa9X0?rlkey=zozd7rg36bs4hrbirty7i6dat&dl=0) |  |   |   |
+|   [Penalized Regression](https://www.dropbox.com/scl/fo/dvbi5u67w700keuct9nn0/AHkqNYmLOUtH-BcVLEciqZw?rlkey=navb0o4fx63dw46liw93mxmua&dl=0) |  |  | |
+|   [Bayesian Srhinkage and Variable Selection](https://www.dropbox.com/scl/fo/ps8q4ll7t6x7lvy6zj7o7/ACHLN7hiE5k6Gfqfmn_DeZ8?rlkey=4mryjomh6l95ryab3r6qg2r1s&dl=0) |  |  | |
+|   [Kernel Regression](https://www.dropbox.com/scl/fo/2hvwn3vqndkevugr44ybt/ANMWebPCZWhABPTA-UHknB8?rlkey=m1pw5duhbycsjf81iv1r90yn4&dl=0) |  |  | |
+| [Neural Networks](https://www.dropbox.com/scl/fo/xjbzh9r2l4usn8ju7wsfz/AHDIQ8w6w4eH-RgCrwYUEMA?rlkey=0mo1v8hiybne3j5yjeawrlu3c&dl=0) | | | |
 | **HW 5** | [HW5](https://www.dropbox.com/scl/fi/73vmbuy5o08y0ogkvy207/HW5.pdf?rlkey=dvq8ng61p3z926hwfbtclktfs&dl=0) |  | |
