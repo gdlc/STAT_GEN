@@ -47,7 +47,15 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 | **Heritability estimation** |  |  | |
 | Estimation Methods | [pdf](https://www.dropbox.com/scl/fi/stl88vw468eyd0n1nmdu9/GENETIC_AND_GENIC.pdf?rlkey=00b8236uv0o6exa6yl5qrtngm&dl=0)|  | |
 | Trait Vs SNP heritability | [pdf](https://www.dropbox.com/scl/fi/v12e0vk52386x16jvreg1/TRAIT_VS_SNP_HERITABILITY.pdf?rlkey=tg5tcyhzjp5lxzu1d1kzxgtge&dl=0) | [RMarkdown](https://www.dropbox.com/scl/fi/1d35vw28sqcn6e9p206eq/TRAIT_VS_SNP_HERITABILITY.Rmd?rlkey=hyc2p9iadrr5tftue0mcudx2p&dl=0) |
-| Genetic Variance With or Without Linkage Disequilibirum? |  |  | |
 | **HW 4** | [HW4](https://www.dropbox.com/scl/fi/nsnpitg3fyhudar1tr1mo/HW4.pdf?rlkey=i1md7pyi3rs32ux35pb7w7356&dl=0) |  | |
 | **Genomic Prediction** |  |  | |
+|   [Conceptual Framework]() |  |  | |
+|   [Building models using independent screening]() |  |  | |
+|   [Forward regression]() |  |  | |
+|   [Principal component regression]() |  |  | |
+|   [Penalized Regression]() |  |  | |
+|   [Bayesian Srhinkage and Variable Selection]() |  |  | |
+|   [Nerual Networks]() |  |  | |
+|   [Kernel Regression]() |  |  | |
+|   [XGBoost]() |  |  | |
 | **HW 5** | [HW5](https://www.dropbox.com/scl/fi/73vmbuy5o08y0ogkvy207/HW5.pdf?rlkey=dvq8ng61p3z926hwfbtclktfs&dl=0) |  | |
