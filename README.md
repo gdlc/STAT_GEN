@@ -54,7 +54,7 @@ This GitHub serves as a repository for STT 855 and EPI 855.
 |   [Forward regression](https://www.dropbox.com/scl/fo/xa791f4gbjwcotvvv5py6/AEg_wRxsaGIoAilbCxPebK4?rlkey=wtivfsn91bkoo7kp9xihc44ah&dl=0) |  |  | |
 |   [Principal component regression](https://www.dropbox.com/scl/fo/1exqe4atjaqm0h4dg38gj/ANbaaniblMIDjfU49LM8GI0?rlkey=6g0qtkuxtkobme09o2xdhxque&dl=0) |  |  | |
 |   [Penalized Regression](https://www.dropbox.com/scl/fo/dvbi5u67w700keuct9nn0/AHkqNYmLOUtH-BcVLEciqZw?rlkey=navb0o4fx63dw46liw93mxmua&dl=0) |  |  | |
-|   [Bayesian Srhinkage and Variable Selection](https://www.dropbox.com/scl/fo/ps8q4ll7t6x7lvy6zj7o7/ACHLN7hiE5k6Gfqfmn_DeZ8?rlkey=4mryjomh6l95ryab3r6qg2r1s&dl=0) |  |  | |
+|   [Bayesian Srhinkage and Variable Selection](https://www.dropbox.com/scl/fo/ps8q4ll7t6x7lvy6zj7o7/ACHLN7hiE5k6Gfqfmn_DeZ8?rlkey=4mryjomh6l95ryab3r6qg2r1s&dl=0) |  PGS prediciton using summary statistics: [BGLR](https://academic.oup.com/g3journal/article/15/4/jkae288/7919370)  [LDPred](https://academic.oup.com/bioinformatics/article/36/22-23/5424/6039173)  [GPTL](https://github.com/QuantGen/GPTL) |  | |
 |   [Kernel Regression](https://www.dropbox.com/scl/fo/2hvwn3vqndkevugr44ybt/ANMWebPCZWhABPTA-UHknB8?rlkey=m1pw5duhbycsjf81iv1r90yn4&dl=0) |  |  | |
 | [Neural Networks](https://www.dropbox.com/scl/fo/xjbzh9r2l4usn8ju7wsfz/AHDIQ8w6w4eH-RgCrwYUEMA?rlkey=0mo1v8hiybne3j5yjeawrlu3c&dl=0) | | | |
 | **HW 5** | [HW5](https://www.dropbox.com/scl/fi/73vmbuy5o08y0ogkvy207/HW5.pdf?rlkey=dvq8ng61p3z926hwfbtclktfs&dl=0) |  | |
